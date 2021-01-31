@@ -1,0 +1,52 @@
+import React from 'react'
+import { Container, LogoArea, Menu, ButtonMenu, Contact, IconArea } from './style'
+import Logo from '../../assets/logo.png'
+import { FaWhatsapp } from 'react-icons/fa'
+import { AiOutlineInstagram } from 'react-icons/ai'
+import { HiOutlineMail } from 'react-icons/hi'
+import { Link } from 'react-router-dom'
+import '../Main'
+
+const Header: React.FC = () => {
+  return (
+    <Container>
+      <LogoArea>
+        <Link to="/" >
+          <img src={Logo} alt="Logo"></img>
+        </Link>
+      </LogoArea>
+      <Menu>
+        <ButtonMenu>
+          <Link to="/conjunto">Conjunto</Link>
+        </ButtonMenu>
+        <ButtonMenu>
+          <Link to="/pijama">Pijama</Link>
+        </ButtonMenu>
+        <ButtonMenu>
+          <a href="">Calcinha</a>
+        </ButtonMenu>
+        <ButtonMenu>
+          <a href="">Sutiã</a>
+        </ButtonMenu>
+        <ButtonMenu>
+        <a href="">Body</a>
+        </ButtonMenu>
+      </Menu>
+      <Contact>
+        <IconArea>
+          <a href="https://whats.link/eusouautenticas" target="_blank" rel="noreferrer">
+            <FaWhatsapp />
+          </a>
+          <a href="https://www.instagram.com/eusouautenticas/" target="_blank" rel="noreferrer">
+            <AiOutlineInstagram />
+          </a>
+          {/* <Link to="/email">
+            <HiOutlineMail />
+          </Link> */}
+        </IconArea>
+      </Contact>
+    </Container>
+  )
+}
+
+export default Header
