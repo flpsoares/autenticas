@@ -3,7 +3,7 @@ import React from 'react'
 import { Container } from './style'
 import Header from '../Header'
 
-const Pijama: React.FC = () => {
+const Calcinha: React.FC = () => {
   return (
     <Container>
       <Header />
@@ -11,4 +11,4 @@ const Pijama: React.FC = () => {
   )
 }
 
-export default Pijama
+export default Calcinha
