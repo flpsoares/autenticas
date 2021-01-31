@@ -3,7 +3,6 @@ import { Container, LogoArea, Menu, ButtonMenu, Contact, IconArea } from './styl
 import Logo from '../../assets/logo.png'
 import { FaWhatsapp } from 'react-icons/fa'
 import { AiOutlineInstagram } from 'react-icons/ai'
-import { HiOutlineMail } from 'react-icons/hi'
 import { Link } from 'react-router-dom'
 import '../Main'
 
@@ -23,13 +22,13 @@ const Header: React.FC = () => {
           <Link to="/pijama">Pijama</Link>
         </ButtonMenu>
         <ButtonMenu>
-          <a href="">Calcinha</a>
+          <a href="/calcinha">Calcinha</a>
         </ButtonMenu>
         <ButtonMenu>
-          <a href="">Sutiã</a>
+          <a href="/sutia">Sutiã</a>
         </ButtonMenu>
         <ButtonMenu>
-        <a href="">Body</a>
+        <a href="/body">Body</a>
         </ButtonMenu>
       </Menu>
       <Contact>
@@ -40,9 +39,6 @@ const Header: React.FC = () => {
           <a href="https://www.instagram.com/eusouautenticas/" target="_blank" rel="noreferrer">
             <AiOutlineInstagram />
           </a>
-          {/* <Link to="/email">
-            <HiOutlineMail />
-          </Link> */}
         </IconArea>
       </Contact>
     </Container>
