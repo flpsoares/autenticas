@@ -38,15 +38,15 @@ const Main: React.FC = () => {
       </TitleArea>
       <SpotlightArea>
         <Spotlight>
-          <img src={Spotlight1} alt="Destaque 1" />
+          <img src={Spotlight1} alt="Destaque1" />
           <span>Conjunto Deusa</span>
         </Spotlight>
         <Spotlight>
-          <img src={Spotlight2} alt="Destaque 2" />
+          <img src={Spotlight2} alt="Destaque2" />
           <span>Conjunto Magnífica</span>
         </Spotlight>
         <Spotlight>
-          <img src={Spotlight3} alt="Destaque 3" />
+          <img src={Spotlight3} alt="Destaque3" />
           <span>Conjunto Romântica</span>
         </Spotlight>
       </SpotlightArea>
@@ -56,14 +56,14 @@ const Main: React.FC = () => {
         </ContentTitle>
         <Carousel showStatus={false}>
             <CardArea>
-              <Card image={Set1} />
-              <Card image={Set2} />
-              <Card image={Set3} />
+              <Card image={Set1} alt="Conjunto1" />
+              <Card image={Set2} alt="Conjunto2" />
+              <Card image={Set3} alt="Conjunto3" />
             </CardArea>
             <CardArea>
-              <Card image={Set4} />
-              <Card image={Set5} />
-              <Card image={Set6} />
+              <Card image={Set4} alt="Conjunto4" />
+              <Card image={Set5} alt="Conjunto5" />
+              <Card image={Set6} alt="Conjunto6" />
             </CardArea>
         </Carousel>
       </ContentArea>
@@ -73,18 +73,18 @@ const Main: React.FC = () => {
         </ContentTitle>
         <Carousel showStatus={false}>
           <CardArea>
-            <Card image={Pijama1} />
-            <Card image={Pijama2} />
-            <Card image={Pijama3} />
+            <Card image={Pijama1} alt="Pijama1" />
+            <Card image={Pijama2} alt="Pijama2" />
+            <Card image={Pijama3} alt="Pijama3" />
           </CardArea>
           <CardArea>
-            <Card image={Pijama4} />
-            <Card image={Pijama5} />
-            <Card image={Pijama6} />
+            <Card image={Pijama4} alt="Pijama4" />
+            <Card image={Pijama5} alt="Pijama5" />
+            <Card image={Pijama6} alt="Pijama6" />
           </CardArea>
           <CardArea>
-            <Card image={Pijama7} />
-            <Card image={Pijama8} />
+            <Card image={Pijama7} alt="Pijama7" />
+            <Card image={Pijama8} alt="Pijama8" />
             <EmptyCard />
           </CardArea>
         </Carousel>
