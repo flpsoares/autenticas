@@ -25,6 +25,7 @@ export const SpotlightArea = styled.div`
 export const Spotlight = styled.div`
   img {
     width: 350px;
+    object-fit: cover;
   }
   
   display: flex;
