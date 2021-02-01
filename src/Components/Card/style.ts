@@ -9,7 +9,7 @@ export const Container = styled.div`
   flex: 1;
 
   img {
-    width: 350px;
-    height: 400px;
+    height: 600px;
+    object-fit: cover;
   }
 `

@@ -18,16 +18,8 @@ export const Space = styled.div`
 `
 
 export const SpotlightArea = styled.div`
-  /* display: grid;
-  grid-template-columns: 350px 350px 350px;
-  grid-template-rows: 100% 100%;
-  grid-gap: 10px; */
-
-  /* margin: 0 auto; */
-
   display: flex;
   justify-content: center;
-
 `
 
 export const Spotlight = styled.div`
@@ -40,7 +32,7 @@ export const Spotlight = styled.div`
   flex-direction: column;
 
   margin: 0 5px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
   span {
     color: #FF9797;
@@ -82,7 +74,6 @@ export const Title = styled.span`
 
 export const ContentArea = styled.div`
   margin-top: 20px;
-  /* padding: 0 71px; */
 
   display: flex;
   flex-direction: column;

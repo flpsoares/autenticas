@@ -4,7 +4,6 @@ import Logo from '../../assets/logo.png'
 import { FaWhatsapp } from 'react-icons/fa'
 import { AiOutlineInstagram } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
-import '../Main'
 
 const Header: React.FC = () => {
   return (

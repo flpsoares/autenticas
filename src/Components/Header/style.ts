@@ -1,5 +1,9 @@
 import styled from 'styled-components'
 
+const media = {
+  desktop: '@media(min-width: 1000px)'
+}
+
 export const Container = styled.div`
   width: 100%;
   height: 100px;
@@ -11,8 +15,20 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-around;
 
-  /* position: fixed; */
-  z-index: 20;
+
+  @media (max-width: 680px) {
+    flex-direction: column;
+  }
+
+  /* @media (min-width: 630px) {
+    flex-direction: column;
+    background-color: red;
+  }
+
+  @media (min-width: 540px) {
+    flex-direction: column;
+    background-color: red;
+  } */
 `
 
 export const LogoArea = styled.button`
