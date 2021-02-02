@@ -53,7 +53,7 @@ const Main: React.FC = () => {
         </Spotlight>
       </SpotlightArea>
       <CarouselSpotlightArea>
-        <Carousel breakPoints={breakPointsDestaque}>
+        <Carousel isRTL={false} breakPoints={breakPointsDestaque}>
           <CarouselSpotlight>
             <img src={Spotlight2} alt="Destaque1" />
             <span>Conjunto Deusa</span>
@@ -72,7 +72,7 @@ const Main: React.FC = () => {
         <ContentTitle>
           Conheça nossos conjuntos
         </ContentTitle>
-        <Carousel showArrows={false} breakPoints={breakPoints}>
+        <Carousel isRTL={false} showArrows={false} breakPoints={breakPoints}>
             <Card image={Set1} alt="Conjunto1" />
             <Card image={Set2} alt="Conjunto2" />
             <Card image={Set3} alt="Conjunto3" />
@@ -85,7 +85,7 @@ const Main: React.FC = () => {
         <ContentTitle>
           Conheça nossos pijamas
         </ContentTitle>
-        <Carousel showArrows={false} breakPoints={breakPoints}>
+        <Carousel isRTL={false} showArrows={false} breakPoints={breakPoints}>
           <Card image={Pijama1} alt="Pijama1" />
           <Card image={Pijama2} alt="Pijama2" />
           <Card image={Pijama3} alt="Pijama3" />
