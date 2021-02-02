@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, LogoArea, Menu, ButtonMenu, Contact, IconArea, MenuToggle, MenuArea } from './style'
+import { Container, LogoArea, Menu, ButtonMenu, Contact, IconArea, MenuToggle } from './style'
 import Logo from '../../assets/logo.png'
 import { FaWhatsapp } from 'react-icons/fa'
 import { AiOutlineInstagram } from 'react-icons/ai'
