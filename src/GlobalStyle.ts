@@ -42,6 +42,7 @@ export default createGlobalStyle`
 
   .rec.rec-arrow:hover:disabled, .rec.rec-arrow:focus:disabled {
     background: transparent !important;
+    color: transparent !important;
   }
 
 `

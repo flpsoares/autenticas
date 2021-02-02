@@ -24,7 +24,7 @@ const Main: React.FC = () => {
 
   const breakPoints = [
     {width: 1, itemsToShow: 1},
-    {width: 500, itemsToShow: 2},
+    {width: 500, itemsToShow: 2,},
     {width: 768, itemsToShow: 3},
   ]
 
@@ -53,9 +53,9 @@ const Main: React.FC = () => {
         </Spotlight>
       </SpotlightArea>
       <CarouselSpotlightArea>
-        <Carousel isRTL={false} breakPoints={breakPointsDestaque}>
+        <Carousel isRTL={false} showArrows={false} breakPoints={breakPointsDestaque}>
           <CarouselSpotlight>
-            <img src={Spotlight2} alt="Destaque1" />
+            <img src={Spotlight1} alt="Destaque1" />
             <span>Conjunto Deusa</span>
           </CarouselSpotlight>
           <CarouselSpotlight>
