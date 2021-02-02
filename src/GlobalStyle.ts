@@ -19,37 +19,25 @@ export default createGlobalStyle`
     cursor: pointer;
   }
 
-  .hQRPng {
-    background-color: white;
-    box-shadow: 0 0 1px 3px #FF9797;
+  .rec-dot {
+    background-color: transparent !important;
+    opacity: 50% !important;
+    box-shadow: 0 0 1px 3px #FF9797 !important;
   }
 
-  .hQRPng:hover, .hQRPng:focus {
-    background-color: #FF9797;
-    box-shadow: 0 0 1px 3px white;
+  .rec-dot_active {
+    background-color: white !important;
+    opacity: 100% !important;
+    box-shadow: 0 0 1px 3px #FF9797 !important;
   }
 
-  .jnNSlb {
-    background-color: gray;
-    opacity: 50%;
+  .rec.rec-arrow {
+    background: transparent !important;
   }
 
-  .jnNSlb:hover {
-    box-shadow: 0 0 1px 3px #FF9797;
+  .rec.rec-arrow:hover {
+    background: #FF9797 !important;
+    color: white !important;
   }
 
-  .kzhfLO:hover {
-    background-color: #FF9797;
-    color: white;
-  }
-
-  .fiXUHI:hover:enabled {
-    background-color: #FF9797;
-    color: white;
-  }
-
-  .fiXUHI:hover {
-    background-color: #FF9797;
-    color: white;
-  }
 `
