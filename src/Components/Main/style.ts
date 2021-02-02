@@ -88,20 +88,3 @@ export const ContentTitle = styled.span`
   margin: 20px 0;
   font-family: 'Dancing Script', sans-serif;
 `
-
-export const CardArea = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-
-  width: 90%;
-`
-
-export const EmptyCard = styled.div`
-  background-color: transparent;
-  width: 350px;
-  height: 400px;
-  display: flex;
-  flex: 1;
-`

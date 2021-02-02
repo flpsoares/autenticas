@@ -1,8 +1,6 @@
 import React from 'react'
-import { Container, Spotlight, TitleArea, Title, SpotlightArea, ContentArea, ContentTitle, CardArea, EmptyCard } from './style'
+import { Container, Spotlight, TitleArea, Title, SpotlightArea, ContentArea, ContentTitle } from './style'
 import Carousel from 'react-elastic-carousel'
-// import { Carousel } from 'react-responsive-carousel'
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Card from '../Card'
 import Spotlight1 from '../../assets/destaque/d1.jpeg'
 import Spotlight2 from '../../assets/destaque/d2.jpeg'
