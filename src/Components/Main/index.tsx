@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Spotlight, TitleArea, Title, SpotlightArea, ContentArea, ContentTitle } from './style'
+import { Container, Spotlight, TitleArea, Title, SpotlightArea, ContentArea, ContentTitle, CarouselSpotlight, CarouselSpotlightArea } from './style'
 import Carousel from 'react-elastic-carousel'
 import Card from '../Card'
 import Spotlight1 from '../../assets/destaque/d1.jpeg'
@@ -28,6 +28,10 @@ const Main: React.FC = () => {
     {width: 768, itemsToShow: 3},
   ]
 
+  const breakPointsDestaque = [
+    {width: 1000, itemToShow: 1}
+  ]
+
   return (
     <Container>
       <TitleArea>
@@ -48,11 +52,27 @@ const Main: React.FC = () => {
           <span>Conjunto Romântica</span>
         </Spotlight>
       </SpotlightArea>
+      <CarouselSpotlightArea>
+        <Carousel breakPoints={breakPointsDestaque}>
+          <CarouselSpotlight>
+            <img src={Spotlight2} alt="Destaque1" />
+            <span>Conjunto Deusa</span>
+          </CarouselSpotlight>
+          <CarouselSpotlight>
+            <img src={Spotlight2} alt="Destaque2" />
+            <span>Conjunto Deusa</span>
+          </CarouselSpotlight>
+          <CarouselSpotlight>
+            <img src={Spotlight3} alt="Destaque3" />
+            <span>Conjunto Deusa</span>
+          </CarouselSpotlight>
+        </Carousel>
+      </CarouselSpotlightArea>
       <ContentArea>
         <ContentTitle>
           Conheça nossos conjuntos
         </ContentTitle>
-        <Carousel isRTL={false} breakPoints={breakPoints}>
+        <Carousel showArrows={false} breakPoints={breakPoints}>
             <Card image={Set1} alt="Conjunto1" />
             <Card image={Set2} alt="Conjunto2" />
             <Card image={Set3} alt="Conjunto3" />
@@ -65,7 +85,7 @@ const Main: React.FC = () => {
         <ContentTitle>
           Conheça nossos pijamas
         </ContentTitle>
-        <Carousel isRTL={false} breakPoints={breakPoints}>
+        <Carousel showArrows={false} breakPoints={breakPoints}>
           <Card image={Pijama1} alt="Pijama1" />
           <Card image={Pijama2} alt="Pijama2" />
           <Card image={Pijama3} alt="Pijama3" />

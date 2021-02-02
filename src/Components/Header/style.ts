@@ -26,19 +26,6 @@ export const Container = styled.div`
   }
 `
 
-// export const MenuArea = styled.div`
-//   .on {
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-    
-//     width: 100vw;
-//     height: 100vh;
-
-//     background-color: #FF9797;
-//   }
-// `
-
 export const MenuToggle = styled.div`
   width: 40px;
   height: 30px;

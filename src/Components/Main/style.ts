@@ -20,6 +20,46 @@ export const Space = styled.div`
 export const SpotlightArea = styled.div`
   display: flex;
   justify-content: center;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+`
+
+export const CarouselSpotlightArea = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  display: none;
+
+  @media (max-width: 768px) {
+    display: initial;
+  }
+`
+
+export const CarouselSpotlight = styled.div`
+  img {
+    width: 350px;
+    object-fit: cover;
+  }
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 0 5px;
+  transition: all 0.2s ease-in-out;
+
+  span {
+    color: #FF9797;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', sans-serif;
+    text-shadow: 2px 2px 5px #FF9797;
+  }
 `
 
 export const Spotlight = styled.div`
