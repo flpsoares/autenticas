@@ -11,20 +11,38 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-around;
 
+  @media (max-width: 670px) {
+    .one,
+    .two,
+    .three {
+      background-color: #fff;
+      height: 5px;
+      width: 100%;
+      margin: 6px auto;
+    }
 
-  @media (max-width: 680px) {
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
+`
 
-  /* @media (min-width: 630px) {
-    flex-direction: column;
-    background-color: red;
+export const MenuArea = styled.div`
+  .on {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #FF9797;
   }
+`
 
-  @media (min-width: 540px) {
-    flex-direction: column;
-    background-color: red;
-  } */
+export const MenuToggle = styled.div`
+  width: 40px;
+  height: 30px;
+  margin-right: 20px;
 `
 
 export const LogoArea = styled.button`
@@ -43,6 +61,10 @@ export const Menu = styled.div`
 
   display: flex;
   align-items: center;
+
+  @media (max-width: 670px) {
+    display: none;
+  }
 `
 
 export const ButtonMenu = styled.button`
@@ -68,6 +90,10 @@ export const Contact = styled.div`
 
   display: flex;
   align-items: center;
+
+  @media (max-width: 670px) {
+    display: none;
+  }
 `
 
 export const IconArea = styled.div`
