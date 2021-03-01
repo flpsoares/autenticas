@@ -88,19 +88,31 @@ export const ButtonMenuMobile = styled.div`
     }
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 563px) {
+    a {
+      font-size: 24px;
+    }
+  }
+
+  @media (max-width: 485px) {
+    a {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 420px) {
     a {
       font-size: 18px;
     }
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 400px) {
     a {
       font-size: 14px;
     }
   }
 
-  @media (max-width: 320px) {
+  @media (max-width: 340px) {
     a {
       font-size: 12px;
     }
