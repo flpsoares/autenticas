@@ -129,9 +129,9 @@ export const ButtonMenu = styled.button`
     color: white;
     font-size: 20px;
     text-decoration: none;
+    transition: all .2s ease-in-out;
 
     &:hover {
-      transition: all .2s ease-in-out;
       color: #FF9797;
     }
   }
@@ -162,11 +162,12 @@ export const IconArea = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.2s ease-in-out;
   }
 
   a:hover {
     transform: scale(1.1);
-    transition: all 0.2s ease-in-out;
+    /* transition: all 0.2s ease-in-out; */
     color: #FF9797;
   }
 
